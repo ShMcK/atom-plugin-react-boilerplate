@@ -1,4 +1,4 @@
-# Atom React Plugin Boilerplate
+# Atom Plugin React Boilerplate
 
 A setup for building Atom editor plugins with React.
 
@@ -6,7 +6,7 @@ A setup for building Atom editor plugins with React.
 
 * Clone the repo:
 
-    `> git clone https://github.com/shmck/atom-react-plugin-boilerplate.git`
+    `> git clone https://github.com/ShMcK/atom-plugin-react-boilerplate`
 
 * Install dependencies
 
