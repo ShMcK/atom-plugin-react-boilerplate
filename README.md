@@ -11,3 +11,7 @@ A setup for building Atom editor plugins with React.
 ### Compile
 
 Run `> tsc`. Or to set up automatic compilation on save: in *tsconfig.json* set `"compileOnSave": true`.
+
+### Notes
+
+For a more thorough example see [*Atom-CodeRoad*](https://github.com/coderoad/atom-coderoad).
