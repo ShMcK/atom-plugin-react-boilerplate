@@ -1,0 +1,12 @@
+{
+  "menu": [{
+    "label": "Packages",
+    "submenu": [{
+      "label": "Plugin-name",
+      "submenu": [{
+        "label": "Toggle",
+        "command": "plugin-name:toggle"
+      }]
+    }]
+  }]
+}

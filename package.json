@@ -1,0 +1,41 @@
+{
+  "name": "plugin-name",
+  "main": "./lib/atom/main",
+  "version": "0.1.0",
+  "description": "Setup for building an Atom plugin in React",
+  "author": "Shawn McKay <shawn.j.mckay@gmail.com>",
+  "keywords": [
+    "atom",
+    "coderoad",
+    "tutorial",
+    "learn",
+    "education"
+  ],
+  "activationCommands": {
+    "atom-workspace": "plugin-name:toggle"
+  },
+  "repository": "https://github.com/shmck/atom-react-plugin-boilerplate",
+  "files": [
+    "package.json",
+    "keymaps",
+    "lib",
+    "menus",
+    "styles",
+    "*.md"
+  ],
+  "license": "Apache",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "react": "0.14.7",
+    "react-dom": "0.14.7",
+    "react-tap-event-plugin": "0.2.2"
+  },
+  "devDependencies": {
+    "tsc": "^1.20150623.0"
+  },
+  "scripts": {
+    "compile": "tsc"
+  }
+}

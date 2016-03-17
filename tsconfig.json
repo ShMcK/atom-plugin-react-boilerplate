@@ -1,0 +1,60 @@
+{
+  "compileOnSave": false,
+  "buildOnSave": false,
+  "compilerOptions": {
+    "target": "ES5",
+    "module": "commonjs",
+    "declaration": false,
+    "noImplicitAny": false,
+    "removeComments": true,
+    "noLib": false,
+    "jsx": "react",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "outDir": "lib"
+  },
+  "filesGlob": [
+    "src/typings/**/*.d.ts",
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "!src/**/*.spec.ts",
+    "!src/**/*.spec.tsx"
+  ],
+  "files": [
+    "src/typings/assertion-error/assertion-error.d.ts",
+    "src/typings/atom/atom.d.ts",
+    "src/typings/emissary/emissary.d.ts",
+    "src/typings/es6-promise/es6-promise.d.ts",
+    "src/typings/jquery/jquery.d.ts",
+    "src/typings/node/node.d.ts",
+    "src/typings/pathwatcher/pathwatcher.d.ts",
+    "src/typings/q/Q.d.ts",
+    "src/typings/react-dom/react-dom.d.ts",
+    "src/typings/react/react-addons-css-transition-group.d.ts",
+    "src/typings/react/react-addons-transition-group.d.ts",
+    "src/typings/react/react-tap-event-plugin.d.ts",
+    "src/typings/react/react.d.ts",
+    "src/typings/space-pen/space-pen.d.ts",
+    "src/typings/status-bar/status-bar.d.ts",
+    "src/typings/text-buffer/text-buffer.d.ts",
+    "src/typings/tsd.d.ts",
+    "src/_base.ts",
+    "src/actions/actions.ts",
+    "src/actions/actionTypes.ts",
+    "src/actions/alert.ts",
+    "src/actions/page-actions.ts",
+    "src/actions/progress-actions.ts",
+    "src/actions/task-actions.ts",
+    "src/actions/tutorials.ts",
+    "src/atom/main.ts",
+    "src/atom/subscriptions.ts",
+    "src/components/app.tsx",
+    "src/components/render.tsx"
+  ],
+  "exclude": [
+    "node_modules"
+  ],
+  "atom": {
+    "rewriteTsconfig": true
+  }
+}
