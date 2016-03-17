@@ -9,8 +9,6 @@
     "removeComments": true,
     "noLib": false,
     "jsx": "react",
-    "experimentalDecorators": true,
-    "emitDecoratorMetadata": true,
     "outDir": "lib"
   },
   "filesGlob": [
@@ -39,13 +37,6 @@
     "src/typings/text-buffer/text-buffer.d.ts",
     "src/typings/tsd.d.ts",
     "src/_base.ts",
-    "src/actions/actions.ts",
-    "src/actions/actionTypes.ts",
-    "src/actions/alert.ts",
-    "src/actions/page-actions.ts",
-    "src/actions/progress-actions.ts",
-    "src/actions/task-actions.ts",
-    "src/actions/tutorials.ts",
     "src/atom/main.ts",
     "src/atom/subscriptions.ts",
     "src/components/app.tsx",

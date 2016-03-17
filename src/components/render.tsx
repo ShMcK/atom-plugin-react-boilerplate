@@ -1,12 +1,8 @@
 'use strict';
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
-import * as Action from '../actions/actions';
 import App from './app';
 
-/**
- * Render react component on activate
- */
 export function render(target: HTMLElement) {
   ReactDOM.render(
       <App />,

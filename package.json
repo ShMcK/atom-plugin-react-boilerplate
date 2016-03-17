@@ -5,11 +5,7 @@
   "description": "Setup for building an Atom plugin in React",
   "author": "Shawn McKay <shawn.j.mckay@gmail.com>",
   "keywords": [
-    "atom",
-    "coderoad",
-    "tutorial",
-    "learn",
-    "education"
+    "atom"
   ],
   "activationCommands": {
     "atom-workspace": "plugin-name:toggle"
@@ -29,8 +25,7 @@
   },
   "dependencies": {
     "react": "0.14.7",
-    "react-dom": "0.14.7",
-    "react-tap-event-plugin": "0.2.2"
+    "react-dom": "0.14.7"
   },
   "devDependencies": {
     "tsc": "^1.20150623.0"
