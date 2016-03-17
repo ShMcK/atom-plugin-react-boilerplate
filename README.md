@@ -4,13 +4,27 @@ A setup for building Atom editor plugins with React.
 
 ### Setup
 
-`> git clone https://github.com/shmck/atom-react-plugin-boilerplate.git`
+* Clone the repo:
 
-`> npm install`
+    `> git clone https://github.com/shmck/atom-react-plugin-boilerplate.git`
+
+* Install dependencies
+
+    `> npm install`
+
+* Change your package name to fit your project. (*Find* -> *Find in Project*). Replace both *plugin-name* and *pluginName* with your plugin name.
+
+* Add your package to Atom locally
+
+    `> apm link`
 
 ### Compile
 
-Run `> tsc`. Or to set up automatic compilation on save: in *tsconfig.json* set `"compileOnSave": true`.
+To compile: `> tsc`.
+
+To set up automatic compilation on save: in *tsconfig.json* set:
+
+    "compileOnSave": true
 
 ### Notes
 
